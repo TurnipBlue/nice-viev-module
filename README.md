@@ -35,13 +35,6 @@ include:
     shield: corne_right nice_view_adapter nice_view_module  # updated entry
 ```
 
-Finally, you may need to enable the custom status screen in your `config/corne.conf`:
-
-```conf
-CONFIG_ZMK_DISPLAY=y
-CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
-```
-
 ## Configuration
 
 Modify the behavior of this shield by adjusting these options in your personal configuration files. For a more detailed explanation, refer to [Configuration in the ZMK documentation](https://zmk.dev/docs/config).
