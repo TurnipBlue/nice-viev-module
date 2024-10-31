@@ -25,7 +25,7 @@ manifest:
     path: config
 ```
 
-Now, simply swap out the default *nice_view* shield on the board for *nice_view_module* in your `build.yaml` file:
+Now, simply swap out the default *nice_view* shield on the board for *nice_view_module* in your `build.yaml`:
 
 ```yml
 include:
@@ -35,7 +35,7 @@ include:
     shield: corne_right nice_view_adapter nice_view_module  # updated entry
 ```
 
-Finally, you may need to enable the custom status screen in your `config/corne.conf` file:
+Finally, you may need to enable the custom status screen in your `config/corne.conf`:
 
 ```conf
 CONFIG_ZMK_DISPLAY=y
